@@ -1,0 +1,43 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} */
+
+body {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-right:80px; 
+  padding-left:80px; 
+}
+form {
+  border: 3px solid #ccc;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+}
+input[type=checkbox],
+input[type=radio] {
+  margin-right: 8px;
+}
+.form-label.capitalize {
+  text-transform: capitalize;
+}
+.checkbox-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.checkbox-group .form-label {
+  width: 50%;
+}
+input[type=submit],
+.btn-link {
+  margin-top: 20px;
+}
+.panel-heading{
+  text-align: center;
+}
+.panel-body{
+  margin: 10px 10px 10px 10px;
+  padding : 0px 0px 0px 0px;
+}
